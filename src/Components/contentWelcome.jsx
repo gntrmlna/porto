@@ -1,6 +1,7 @@
 import React from 'react'
 import avatar from './Pic/avatar.png'
 import device from './Pic/device.png'
+import Profile from './Profile'
 export default function Welcome() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Welcome() {
               <div className='flex justify-center mt-12 lg:mt-20'>
                   <img className='rounded-full border lg:w-2/12' src={avatar} alt="avatar"/>
               </div>
+              <Profile/>
           </div>
         </div>
 
