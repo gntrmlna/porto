@@ -31,3 +31,17 @@
 .example.exited {
   display: none;
 }
+
+.example1 {
+  transition: all 0.75s;
+}
+
+.example1.preEnter,
+.example1.exiting {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.example1.exited {
+  display: none;
+}
