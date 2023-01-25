@@ -10,7 +10,7 @@ export default function Welcome() {
               <h1 className='text-2xl lg:text-4xl font-bold'>Front End Developer</h1>
               <h1 className='text-lg lg:text-2xl mt-4 lg:mt-8'>I love simple things, and i love what i do.</h1>
               <div className='flex justify-center mt-12 lg:mt-20'>
-                  <img className='rounded-full border lg:w-2/12' src={avatar} alt="avatar"/>
+                  <img className='rounded-full border w-1/2 lg:w-1/4' src={avatar} alt="avatar"/>
               </div>
               <Profile/>
           </div>
