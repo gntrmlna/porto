@@ -1,4 +1,5 @@
 import React from 'react'
+import FadeIn from 'react-reveal'
 
 export default function KontenProfil() {
   return (
@@ -7,6 +8,7 @@ export default function KontenProfil() {
         <h2 className='text-lg lg:text-xl mb-8'>Perjalanan ini dimulai ketika saya lulus kuliah pada tahun 2020 di Universitas Trunojoyo Madura. Saya memulai perjalanan ini sebagai seorang freelance web developer yang sudah saya tekuni selama hampir 3 tahun. Saya membuat beberapa website aktif untuk beberapa instansi pemerintah maupun swasta.</h2>
         <h2 className='text-lg lg:text-2xl mb-16'>Dibawah ini merupakan beberapa portofolio project yang pernah saya kerjakan.</h2>
         <h2 className='text-3xl lg:text-6xl'>ENJOY !</h2>
+        
     </div>
   )
 }
