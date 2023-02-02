@@ -3,7 +3,7 @@ import KontenProfil from './KontenProfil'
 import avatar from './Pic/avatar.png'
 import device from './Pic/device.png'
 import Profile from './Profile'
-import Bounce from 'react-reveal/Bounce'
+import { Bounce } from 'react-awesome-reveal'
 export default function Welcome() {
   return (
     <>

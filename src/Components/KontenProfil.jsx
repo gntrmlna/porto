@@ -1,5 +1,4 @@
 import React from 'react'
-import FadeIn from 'react-reveal'
 
 export default function KontenProfil() {
   return (
