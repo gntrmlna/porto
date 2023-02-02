@@ -9,10 +9,10 @@ export default function Welcome() {
     <>
         <div className='container mx-auto'>
           <div className='text-center mt-2 lg:mt-12 text-black'>
-            <Bounce delay={500} duration={1500}>
+            <Bounce delay={500} duration={1500} triggerOnce={true}>
               <h1 className='text-2xl lg:text-4xl font-bold'>Front End Developer, Web Design, Gamer</h1>
             </Bounce>
-            <Bounce delay={1000} duration={1500}>
+            <Bounce delay={1000} duration={1500} triggerOnce={true}>
               <h1 className='text-lg lg:text-2xl mt-4 lg:mt-8'>I love simple things, and i love what i do.</h1>
             </Bounce>
               <div className='flex justify-center mt-12 lg:mt-20'>
